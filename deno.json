@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-read main.ts"
+  },
+  "imports": {
+    "oak/": "https://deno.land/x/oak@v12.6.1/",
+    "ytdl_core/": "https://deno.land/x/ytdl_core@v0.1.2/"
+  }
+}
